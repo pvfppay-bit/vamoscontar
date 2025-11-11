@@ -11,9 +11,10 @@ function contar() {
         res.innerHTML = 'Passo não pode ficar vazio ou igual a zero!'
     } else {
         var visor = ""
-        for (var un = Number(inicio.value); un < Number(fim.value); un += Number(passo.value)) {
+        for (var un = Number(inicio.value); un <= Number(fim.value); un += Number(passo.value)) {
             visor += `${un} 👉`
         } 
         res.innerHTML = visor + '🏁'
     }
+
 }
