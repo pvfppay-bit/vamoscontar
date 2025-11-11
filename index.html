@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos contar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+        <p>Início: 
+            <input type="number" name="inputinicio" id="inputinicio" min="0">
+        </p>
+        <p>Fim:
+            <input type="number" name="inputfim" id="inputfim" min="0">
+        </p>
+        <p>Passo:
+            <input type="number" id="inputpasso" name="inputpasso" min="0">
+        </p>
+        <p>
+            <input type="button" id="contar" name="contar" onclick="contar()" value="Contar">
+        </p>
+        </div>
+        <div id="res">
+            Aguardando contagem!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; PV Studios</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
